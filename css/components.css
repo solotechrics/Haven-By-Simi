@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+}
+
+.price-tag {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius-round);
+  background-color: var(--color-gold);
+  color: var(--color-light-gold);
+}
+
+.btn {
+  display: inline-block;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-round);
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  font-family: var(--font-body);
+}
+
+.btn-primary {
+  background-color: var(--color-gold);
+  color: white;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: var(--color-cream);
+  color: var(--color-gold);
+  border: 1px solid var(--color-gold);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-gold);
+  color: white;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-gold);
+}
+
+.btn-ghost:hover {
+  background-color: rgba(184, 134, 11, 0.1);
+}
